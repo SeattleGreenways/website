@@ -4,9 +4,16 @@ var osm = L.tileLayer('http://{s}.tile2.opencyclemap.org/transport/{z}/{x}/{y}.p
     });
 
 var map = L.map('map', {
-	center: [47.6210, -122.3328],
-	zoom: 13,
+	center: [47.60383, -122.33006],
+	zoom: 18,
 	layers: [osm]
 });
 
-L.circle([47.60383, -122.33006], 100).addTo(map);
+var marker;
+
+function makeMarker(r){
+	
+	marker = new L.circle([47.60383, -122.33006],r).addTo(map);
+	
+	}
+
