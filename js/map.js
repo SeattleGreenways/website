@@ -14,6 +14,7 @@ var marker;
 function makeMarker(r){
 	
 	marker = new L.circle([47.60383, -122.33006],r).addTo(map);
+	marker.bindPopup("<b>Current Count:</b> " + r);
 	
 	}
 
