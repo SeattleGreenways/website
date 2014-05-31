@@ -5,6 +5,8 @@ var osm = L.tileLayer('http://{s}.tile2.opencyclemap.org/transport/{z}/{x}/{y}.p
 
 var map = L.map('map', {
 	center: [47.6210, -122.3328],
-	zoom: 12,
+	zoom: 13,
 	layers: [osm]
 });
+
+L.circle([47.60383, -122.33006], 100).addTo(map);
