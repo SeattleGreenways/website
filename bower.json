@@ -1,0 +1,28 @@
+{
+  "name": "seattlegreenwaywebsite",
+  "version": "0.0.0",
+  "homepage": "https://github.com/SeattleGreenways/website",
+  "authors": [
+    "Alexander <alexandermichaelmiranda@gmail.com>"
+  ],
+  "description": "The website presentation layer for the Seattle Greenway",
+  "main": "index.html",
+  "keywords": [
+    "greenway",
+    "Seattle",
+    "Civic",
+    "Hacking"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "foundation": "~5.2.3"
+  }
+}
